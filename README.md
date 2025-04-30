@@ -1,6 +1,24 @@
-# Microservices Infrastructure
+# Agenda App 
 
-Contiene i file YAML per il deploy Kubernetes.
+## Descrizione
+Semplice applicazione a microservizi containerizzata per la gestione di contatti ed eventi.
+
+## Architettura
+
+Il sistema è composto dai seguenti componenti principali:
+
+- **API Gateway**: Punto di ingresso centralizzato che gestisce e instrada le richieste ai servizi appropriati
+- **Contact Service**: Gestisce le operazioni relative ai contatti
+- **Event Service**: Gestisce le operazioni relative agli eventi
+- **Database PostgreSQL**: Archivia i dati per entrambi i servizi
+  
+## Tecnologie Utilizzate
+
+- **Backend**: Java/Quarkus
+- **Database**: PostgreSQL 14
+- **Container**: Docker
+- **Orchestrazione**: Kubernetes
+- **Ingress**: Traefik
 
 ## Microservizi
 
