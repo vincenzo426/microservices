@@ -17,7 +17,7 @@ Il sistema è composto dai seguenti componenti principali:
 - **Backend**: Java/Quarkus
 - **Database**: PostgreSQL 14
 - **Container**: Docker
-- **Orchestrazione**: Kubernetes
+- **Orchestrazione**: Kubernetes (k3s)
 - **Ingress**: Traefik
 
 ## Microservizi
