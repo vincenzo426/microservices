@@ -1,7 +1,7 @@
 # Agenda App 
 
 ## Descrizione
-Semplice applicazione a microservizi containerizzata per la gestione di contatti ed eventi.
+Applicazione a microservizi containerizzata per la gestione di contatti ed eventi.
 
 ## Architettura
 
